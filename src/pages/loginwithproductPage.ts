@@ -31,7 +31,7 @@ export class LoginPage extends BasePage {
     this.subscription = page.locator("//input[@id = 'susbscribe_email']");
     this.subclick = page.locator("//button[@id = 'subscribe']");
     //this.scrollup = page.locator("//a[@id = 'scrollUp']");
-    this.viewproduct = page.locator("(//a[i[contains(@class,'fa-plus-square')]])[1]");
+    this.viewproduct = page.locator("a[href= '/product_details/4']");
     this.addcart = page.locator("//button/i[@class = 'fa fa-shopping-cart']");
     this.yourname = page.locator("//input[@id = 'name']");
     this.emailaddress = page.locator("//input[@id = 'email']");
