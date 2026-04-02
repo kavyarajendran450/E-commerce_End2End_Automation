@@ -20,7 +20,7 @@ export class CartPage extends BasePage {
 
     constructor(page: Page) {
         super(page);
-        this.cartclick = page.locator("(//i[@class = 'fa fa-shopping-cart'])[1]");
+        this.cartclick = page.locator("//a[normalize-space()='Cart']");
         this.checkoutbtn = page.locator("//a[text() = 'Proceed To Checkout']");
         this.reviewcomment = page.locator("//textarea[@name = 'message']");
         this.placeorder = page.locator("//a[text() = 'Place Order']");

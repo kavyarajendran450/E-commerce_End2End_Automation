@@ -1,6 +1,6 @@
 export let Constants = {
     BASE_URL: 'https://automationexercise.com/',
-    EMAIL: 'george@yopmail.com',
+    EMAIL: 'georgepiggy@yopmail.com',
     PASSWORD: 'Welcome@1234',
     USERNAME: 'KAVYATESTER',
     SUBSCRIPTION: 'dummytester@yopmail.com',
