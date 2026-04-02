@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//input[@name = \'email\'])[1]')
+
+Stack: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//input[@name = \'email\'])[1]')
+
+    at UIActions.fill (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:37:40)
+    at LoginPage.logindetails (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\loginPage.ts:22:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\loginPage\loginPage.spec.ts:11:25
+====
+Screenshot capture Fail

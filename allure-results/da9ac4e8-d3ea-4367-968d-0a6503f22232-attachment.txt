@@ -1,0 +1,25 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text(),'Continue')' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:6147:25)
+    at InjectedScript._queryEngineAll (<anonymous>:6847:49)
+    at InjectedScript.querySelectorAll (<anonymous>:6834:30)
+    at eval (eval at evaluate (:290:30), <anonymous>:2:35)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+  - waiting for locator('//button[contains(text(),\'Continue\')')
+
+Stack: locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text(),'Continue')' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:6147:25)
+    at InjectedScript._queryEngineAll (<anonymous>:6847:49)
+    at InjectedScript.querySelectorAll (<anonymous>:6834:30)
+    at eval (eval at evaluate (:290:30), <anonymous>:2:35)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+  - waiting for locator('//button[contains(text(),\'Continue\')')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:27:40)
+    at LoginPage.productdetails (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\loginwithproductPage.ts:67:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\loginPage\loginPage.spec.ts:14:9
+====

@@ -1,0 +1,76 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[@class = \'overlay-content\']/a[@data-product-id = \'1\']')
+    - locator resolved to <a data-product-id="1" class="btn btn-default add-to-cart">…</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+      - waiting 100ms
+    15 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <h2 class="title text-center">Features Items</h2> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  11 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <h2 class="title text-center">Features Items</h2> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+
+Stack: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[@class = \'overlay-content\']/a[@data-product-id = \'1\']')
+    - locator resolved to <a data-product-id="1" class="btn btn-default add-to-cart">…</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+      - waiting 100ms
+    15 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <h2 class="title text-center">Features Items</h2> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  11 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <h2 class="title text-center">Features Items</h2> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:27:40)
+    at LoginPage.productdetails (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\loginwithproductPage.ts:66:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\loginPage\loginPage.spec.ts:14:25
+====
+Screenshot capture Fail

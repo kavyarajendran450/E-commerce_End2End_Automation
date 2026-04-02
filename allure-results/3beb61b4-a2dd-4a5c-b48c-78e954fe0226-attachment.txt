@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id = \'id_gender2\']')
+
+Stack: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id = \'id_gender2\']')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:27:40)
+    at RegisterPage.signuppage (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\registerPage.ts:76:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\registerPage\registerPage.spec.ts:12:28
+====
+Screenshot capture Fail

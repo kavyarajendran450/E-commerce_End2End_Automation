@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://automationexercise.com/", waiting until "load"
+
+Stack: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://automationexercise.com/", waiting until "load"
+
+    at UIActions.navigateTo (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:12:25)
+    at RegisterPage.navigateTo (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\registerPage.ts:65:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\registerPage\registerPage.spec.ts:9:28
+====
+Screenshot capture Fail

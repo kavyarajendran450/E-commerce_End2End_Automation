@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.textContent: Target page, context or browser has been closed
+Call log:
+  - waiting for getByText('Account Created!', { exact: true })
+
+Stack: locator.textContent: Target page, context or browser has been closed
+Call log:
+  - waiting for getByText('Account Created!', { exact: true })
+
+    at UIActions.getText (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:47:46)
+    at RegisterPage.details (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\registerPage.ts:115:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\registerPage\registerPage.spec.ts:18:9
+====
+Screenshot capture Fail

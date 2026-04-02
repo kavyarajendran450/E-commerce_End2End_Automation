@@ -1,0 +1,21 @@
+=== EXCEPTION OCCURED ===
+Message: locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - waiting for locator('//h2[text() = \'Subscription\']')
+    - locator resolved to <h2>Subscription</h2>
+    - fill("dummytester@yopmail.com")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+Stack: locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+  - waiting for locator('//h2[text() = \'Subscription\']')
+    - locator resolved to <h2>Subscription</h2>
+    - fill("dummytester@yopmail.com")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+    at UIActions.fill (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:37:40)
+    at LoginPage.logindetails (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\loginPage.ts:33:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\loginPage\loginPage.spec.ts:12:9
+====

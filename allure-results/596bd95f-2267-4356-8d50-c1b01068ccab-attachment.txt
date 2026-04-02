@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//a[i[contains(@class,\'fa-plus-square\')]])[1]')
+
+Stack: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=(//a[i[contains(@class,\'fa-plus-square\')]])[1]')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\actions\uiActions.ts:27:40)
+    at LoginPage.productdetails (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\src\pages\loginwithproductPage.ts:59:26)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Credo\AutomationExe_POM\tests\loginPage\loginPage.spec.ts:14:25
+====
+Screenshot capture Fail
